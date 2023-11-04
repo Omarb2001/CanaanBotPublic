@@ -1,0 +1,29 @@
+bot features:
+-music
+-programmer jokes
+-moderator commands
+
+music commands:
+-play
+-skip
+-queue
+-join/leave
+-shuffle
+
+moderation commands:
+-ban+
+-kick+
+-setrole
+-mute+
+-I'll figure out other commands as I go
+
+AI:
+on mention ask a question and it will answer.
+
+
+Day 1 progress: I got the bot to run, with a few very simple commands for manipulating sentences.
+Bot can also join and leave voice chats. I decided to not go any further in terms of the musics functionality of the bot, and leave that aspect for last.
+I should complete moderation commands instead. might work on slash commands on the side as well
+
+things i will probably copy paste over and over again:
+-emb = nextcord.Embed(description=f' ', color=0x00FFFF)
