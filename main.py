@@ -50,4 +50,8 @@ async def mock(ctx, *args):
     emb = nextcord.Embed(description=mocking_message, color=0x00FFFF)
     await ctx.send(embed=emb)
 
+
+
+
+
 bot.run('insert token here')
