@@ -21,7 +21,7 @@ if __name__ == '__main__':
     bot.load_extension(f"music.play")
     bot.load_extension(f"music.joinleave")
     bot.load_extension(f"moderation.mod")
-
+    bot.load_extension(f"user.user_commands")
 # fun commands that just manipulate the strings in the discord message
 @bot.command()
 async def hot(ctx, *args):
@@ -49,6 +49,7 @@ async def mock(ctx, *args):
         i = not i
     emb = nextcord.Embed(description=mocking_message, color=0x00FFFF)
     await ctx.send(embed=emb)
+
 
 
 
